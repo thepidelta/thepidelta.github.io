@@ -326,3 +326,94 @@
         page-break-after: always;
     }
 }
+
+/*RESPONSIVE DESIGN FOR MOBILE DEVICES*/
+@media (max-width: 768px) {
+    .header, .main-cv {
+        flex-direction: column;
+        height: auto;
+        margin: 10px 0;
+    }
+    .summary-container,
+    .contact-container,
+    .work-xp-container,
+    .skills-etc-container {
+        width: 100%;
+        margin: 10px 0;
+        height: auto;
+        border-radius: 15px;
+    }
+    .profile-pic-container {
+        width: 100%;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .prof-pic {
+        width: 60%;
+        max-width: 120px;
+        margin: 0 auto;
+    }
+    .summary {
+        width: 100%;
+        padding: 0 8px;
+        font-size: 18px;
+    }
+    .name > h1 {
+        font-size: 22px;
+    }
+    .title > h2 {
+        font-size: 16px;
+    }
+    .contact-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .contact-icon {
+        width: 32px;
+        margin: 8px;
+    }
+    .contact-text {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .work-xp-header,
+    .work-xp-header-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .job-title {
+        margin: 10px 0 0 0;
+        font-size: 16px;
+    }
+    .work-xp-text {
+        font-size: 16px;
+    }
+    .company-details, .period, .responsibilities {
+        margin: 10px 0;
+    }
+    .logo, .skill-icon, .work-xp-icon {
+        width: 40px;
+        margin: 8px;
+    }
+    .small-loc-icon, .small-role-icon {
+        width: 16px;
+        margin: 4px;
+    }
+    .skills-etc-container > .content-container {
+        width: 100%;
+        margin: 0;
+    }
+    .gen-skill-text {
+        font-size: 20px;
+    }
+    .gen-list-item {
+        font-size: 16px;
+    }
+    .small-description {
+        width: 100%;
+        margin: 0;
+    }
+}
