@@ -10,62 +10,64 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
-    <div class="container">
-        <div class="header">
-            <div class="summary-container">
-                <div class="profile-pic-container">
-                    <img class="prof-pic" src="./images/pavlos-2.jpg" alt="profile pic">
+    <!-- Language Switcher -->
+    <div class="lang-switch" style="display:flex; gap:10px; justify-content:flex-end; margin:16px 24px 0 0;">
+        <img src="./images/flag-gr.png" alt="Ελληνικά" id="flag-gr" style="width:32px;cursor:pointer;" title="Ελληνικά">
+        <img src="./images/flag-en.png" alt="English" id="flag-en" style="width:32px;cursor:pointer;" title="English">
+    </div>
+
+    <div class="container lang-en" style="display:none;">
+        <div class="header lang-en">
+            <div class="summary-container lang-en">
+                <div class="profile-pic-container lang-en">
+                    <img class="prof-pic lang-en" src="./images/pavlos-2.jpg" alt="profile pic">
                 </div>
-                <div class="summary">
-                    <div class="name">
+                <div class="summary lang-en">
+                    <div class="name lang-en">
                         <h1>Pavlos Drivas</h1>
                     </div>
-                    <div class="title">
+                    <div class="title lang-en">
                         <h2>Customer Experience | Product Management | Telecommunications | Humanitarian Sector</h2>
                     </div>
-                    <div class="summary-text">
+                    <div class="summary-text lang-en">
                         <p>
                             Empathetic and adaptable professional with a broad skill set developed through self-driven learning and diverse work experience. I am committed to understanding processes thoroughly, asking insightful questions, and continuously seeking ways to improve efficiency. I approach challenges with honesty, integrity, and a focus on delivering meaningful results.
                         </p>
                     </div>
                 </div>
-    
             </div>
-            <div class="contact-container">
-                <div class="content-container">
-                    <div class="email">
-                        <img class="contact-icon" src="./images/email.png" alt="email">
-                        <span class="contact-text">pavlos.d@outlook.com.gr</span>
+            <div class="contact-container lang-en">
+                <div class="content-container lang-en">
+                    <div class="email lang-en">
+                        <img class="contact-icon lang-en" src="./images/email.png" alt="email">
+                        <span class="contact-text lang-en">pavlos.d@outlook.com.gr</span>
                     </div>
-                    <div class="phone">
-                        <img class="contact-icon" src="./images/phone.png" alt="phone">
-                        <span class="contact-text">+30 690 69 50 860</span>
+                    <div class="phone lang-en">
+                        <img class="contact-icon lang-en" src="./images/phone.png" alt="phone">
+                        <span class="contact-text lang-en">+30 690 69 50 860</span>
                     </div>
-                    <div class="location">
-                        <img class="contact-icon" src="./images/location.png" alt="location">
-                        <span class="contact-text">Plaka Kerateas, 19001, Greece</span>
+                    <div class="location lang-en">
+                        <img class="contact-icon lang-en" src="./images/location.png" alt="location">
+                        <span class="contact-text lang-en">Plaka Kerateas, 19001, Greece</span>
                     </div>
-                    <div class="linkedin">
-                        <img class="contact-icon" src="./images/linkedin.png" alt="linkedin">
-                        <span class="contact-text"><a href="https://www.linkedin.com/in/pavlos-drivas/" target="_blank">linkedin.com/in/pavlos-drivas/</a></span>
+                    <div class="linkedin lang-en">
+                        <img class="contact-icon lang-en" src="./images/linkedin.png" alt="linkedin">
+                        <span class="contact-text lang-en"><a href="https://www.linkedin.com/in/pavlos-drivas/" target="_blank">linkedin.com/in/pavlos-drivas/</a></span>
                     </div>
                 </div>
             </div>
         </div>
-    
-        <div class="main-cv">
-            <div class="work-xp-container">
-                <div class="content-container">
-
-                    <div class="work-xp-header-container">
-                        <div class="work-xp-header">
-                            <img class="work-xp-icon" src="./images/briefcase.png" alt="work-experience">
-                        <span class="work-xp-text">Work Experience</span>
+        <div class="main-cv lang-en">
+            <div class="work-xp-container lang-en">
+                <div class="content-container lang-en">
+                    <!-- Όλα τα work-xp-body-per-company είναι αγγλικά -->
+                    <div class="work-xp-header-container lang-en">
+                        <div class="work-xp-header lang-en">
+                            <img class="work-xp-icon lang-en" src="./images/briefcase.png" alt="work-experience">
+                            <span class="work-xp-text lang-en">Work Experience</span>
                         </div>
                     </div>
-
-                    <div class="work-xp-body-per-company">
+                    <div class="work-xp-body-per-company lang-en">
                         <div class="company-details">
                             <img class="logo" src="./images/ntwrk-anth-logo.png" alt="company-logo">
                             <span class="company-name"><a class="company-url" href="https://en.networkanthropia.org/" target="_blank">Network Anthropia</a></span>
@@ -83,7 +85,7 @@
                             <ul>
                                 <li>Organized and provided support for transportation, relocation, housing, legal counsel, medical care, and school enrollment for beneficiaries.</li>
                                 <li>Coordinated donation collection and distribution to partner organizations and individuals in need.</li>
-                                <li>Managed internal operations, including financial record-keeping, scheduling activities and lessons, and maintaining a well-organized center environment.</li>
+                                <li>Managed internal operations, including financial record-keeping, scheduling activities and lessons, and maintaining a well-organized operations center environment.</li>
                                 <li>Supported team members to ensure smooth daily operations.</li>
                             </ul>
                         </div>
@@ -94,7 +96,7 @@
                         </div>    
                     </div>
 
-                    <div class="work-xp-body-per-company">
+                    <div class="work-xp-body-per-company lang-en">
                         <div class="company-details">
                             <img class="logo" src="./images/dgs-logo-2.jpg" alt="company-logo">
                             <span class="company-name"><a class="company-url" href="https://dgs.gr/" target="_blank">DGS Security</a></span>
@@ -121,7 +123,7 @@
                         </div>
                     </div>
                     
-                    <div class="work-xp-body-per-company">
+                    <div class="work-xp-body-per-company lang-en">
                         <div class="company-details">
                             <img class="logo" src="./images/cosmomarket-logo.png" alt="company-logo">
                             <span class="company-name"><a class="company-url" href="https://cosmomarket.gr/" target="_blank">cosmomarket.gr</a></span>
@@ -174,7 +176,7 @@
                         </div>
                     </div>
 
-                    <div class="work-xp-body-per-company">
+                    <div class="work-xp-body-per-company lang-en">
                         <div class="company-details">
                             <img class="logo" src="./images/cmt-logo.jpg" alt="company-logo">
                             <span class="company-name"><a class="company-url" href="https://cliomusetours.com/" target="_blank">cliomusetours.com</a></span>
@@ -271,7 +273,7 @@
                         </div>
                     </div>
 
-                    <div class="work-xp-body-per-company">
+                    <div class="work-xp-body-per-company lang-en">
                         <div class="company-details">
                             <img class="logo" src="./images/cosmote-logo.png" alt="company-logo">
                             <span class="company-name"><a class="company-url" href="https://www.cosmote.gr/hub/" target="_blank">Cosmote</a></span>
@@ -329,17 +331,15 @@
                     
                 </div>
             </div>
-
-
-            <div class="skills-etc-container">
-                <div class="content-container">
-                    <div class="skills">
-                        <div class="gen-skill-header">
-                            <img class="skill-icon" src="./images/skill.png" alt="technical-skills">
-                            <span class="gen-skill-text">Skills</span>
+            <div class="skills-etc-container lang-en">
+                <div class="content-container lang-en">
+                    <div class="skills lang-en">
+                        <div class="gen-skill-header lang-en">
+                            <img class="skill-icon lang-en" src="./images/skill.png" alt="technical-skills">
+                            <span class="gen-skill-text lang-en">Skills</span>
                         </div>
-                        <div class="skills-list">
-                            <ul class="gen-list-item">
+                        <div class="skills-list lang-en">
+                            <ul class="gen-list-item lang-en">
                                 <li>Google Sheets & Data Management</li>
                                 <li>Process Documentation</li>
                                 <li>Teaching & Training</li>
@@ -347,26 +347,26 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="languages">
-                        <div class="gen-skill-header">
-                            <img class="skill-icon" src="./images/language.png" alt="languages">
-                            <span class="gen-skill-text">Languages</span>
+                    <div class="languages lang-en">
+                        <div class="gen-skill-header lang-en">
+                            <img class="skill-icon lang-en" src="./images/language.png" alt="languages">
+                            <span class="gen-skill-text lang-en">Languages</span>
                         </div>
-                        <div class="languages-list">
-                            <ul class="gen-list-item">
+                        <div class="languages-list lang-en">
+                            <ul class="gen-list-item lang-en">
                                 <li>Greek (Native)</li>
                                 <li>English (Full Professional Proficiency)</li>
                                 <li>German (Elementary Proficiency)</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="soft-skills">
-                        <div class="gen-skill-header">
-                            <img class="skill-icon" src="./images/creative-thinking.png" alt="soft-skills">
-                            <span class="gen-skill-text">Soft Skills</span>
+                    <div class="soft-skills lang-en">
+                        <div class="gen-skill-header lang-en">
+                            <img class="skill-icon lang-en" src="./images/creative-thinking.png" alt="soft-skills">
+                            <span class="gen-skill-text lang-en">Soft Skills</span>
                         </div>
-                        <div class="soft-skills-list">
-                            <ul class="gen-list-item">
+                        <div class="soft-skills-list lang-en">
+                            <ul class="gen-list-item lang-en">
                                 <li>Adaptability</li>
                                 <li>Attention to Detail</li>
                                 <li>Honesty & Integrity</li>
@@ -378,13 +378,13 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="interests">
-                        <div class="gen-skill-header">
-                            <img class="skill-icon" src="./images/hobbies.png" alt="interests">
-                            <span class="gen-skill-text">Interests</span>
+                    <div class="interests lang-en">
+                        <div class="gen-skill-header lang-en">
+                            <img class="skill-icon lang-en" src="./images/hobbies.png" alt="interests">
+                            <span class="gen-skill-text lang-en">Interests</span>
                         </div>
-                        <div class="interests-list">
-                            <ul class="gen-list-item">
+                        <div class="interests-list lang-en">
+                            <ul class="gen-list-item lang-en">
                                 <li>Music Composition & Production</li>
                                 <li>Sound Editing</li>
                                 <li>Photography</li>
@@ -394,13 +394,13 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="education">
-                        <div class="gen-skill-header">
-                            <img class="skill-icon" src="./images/education.png" alt="education">
-                            <span class="gen-skill-text">Education</span>
+                    <div class="education lang-en">
+                        <div class="gen-skill-header lang-en">
+                            <img class="skill-icon lang-en" src="./images/education.png" alt="education">
+                            <span class="gen-skill-text lang-en">Education</span>
                         </div>
-                        <div class="education-list">
-                            <ul class="gen-list-item">
+                        <div class="education-list lang-en">
+                            <ul class="gen-list-item lang-en">
                                 <li>Music Technology & Acoustics – Technological Educational Institute of Crete (Attended, no degree)</li>
                                 <li>High School Diploma, Lavrio, Greece</li>
                             </ul>
@@ -429,9 +429,442 @@
             <a href="https://www.flaticon.com/free-icons/supervisor" title="supervisor icons">Supervisor icons created by Freepik - Flaticon</a>
             <a href="https://www.flaticon.com/free-icons/owner" title="owner icons">Owner icons created by juicy_fish - Flaticon</a>
             <a href="https://www.flaticon.com/free-icons/resource" title="resource icons">Resource icons created by noomtah - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/greece" title="greece icons">Greece icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/uk-flag" title="uk flag icons">Uk flag icons created by Freepik - Flaticon</a>
+        </div>
+        -->
+    </div>
+
+    <!-- Greek Section -->
+
+    <div class="container lang-el">
+        <div class="header lang-el">
+            <div class="summary-container lang-el">
+                <div class="profile-pic-container lang-el">
+                    <img class="prof-pic lang-el" src="./images/pavlos-2.jpg" alt="profile pic">
+                </div>
+                <div class="summary lang-el">
+                    <div class="name lang-el">
+                        <h1>Παύλος Δρίβας</h1>
+                    </div>
+                    <div class="title lang-el">
+                        <h2>Εξυπηρέτηση Πελατών | Διαχείριση Προϊόντων | Τηλεπικοινωνίες | Ανθρωπιστικός Τομέας</h2>
+                    </div>
+                    <div class="summary-text lang-el">
+                        <p>
+                            Ενσυναισθητικός και ευέλικτος επαγγελματίας με ευρύ φάσμα δεξιοτήτων, που έχουν αναπτυχθεί μέσω αυτομόρφωσης και ποικίλης εργασιακής εμπειρίας. Δεσμεύομαι να κατανοώ σε βάθος διαδικασίες, να θέτω ουσιαστικά ερωτήματα και να αναζητώ συνεχώς τρόπους βελτίωσης της αποδοτικότητάς μου. Αντιμετωπίζω τις καταστάσεις με ειλικρίνεια, ακεραιότητα με στόχο την επίτευξη ουσιαστικών αποτελεσμάτων.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container lang-el">
+                <div class="content-container lang-el">
+                    <div class="email lang-el">
+                        <img class="contact-icon lang-el" src="./images/email.png" alt="email">
+                        <span class="contact-text lang-el">pavlos.d@outlook.com.gr</span>
+                    </div>
+                    <div class="phone lang-el">
+                        <img class="contact-icon lang-el" src="./images/phone.png" alt="phone">
+                        <span class="contact-text lang-el">+30 690 69 50 860</span>
+                    </div>
+                    <div class="location lang-el">
+                        <img class="contact-icon lang-el" src="./images/location.png" alt="location">
+                        <span class="contact-text lang-el">Πλάκα Κερατέας, 19001, Ελλάδα</span>
+                    </div>
+                    <div class="linkedin lang-el">
+                        <img class="contact-icon lang-el" src="./images/linkedin.png" alt="linkedin">
+                        <span class="contact-text lang-el"><a href="https://www.linkedin.com/in/pavlos-drivas/" target="_blank">linkedin.com/in/pavlos-drivas/</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-cv lang-el">
+            <div class="work-xp-container lang-el">
+                <div class="content-container lang-el">
+                    <div class="work-xp-header-container lang-el">
+                        <div class="work-xp-header lang-el">
+                            <img class="work-xp-icon lang-el" src="./images/briefcase.png" alt="work-experience">
+                            <span class="work-xp-text lang-el">Επαγγελματική Εμπειρία</span>
+                        </div>
+                    </div>
+                    <div class="work-xp-body-per-company lang-el">
+                        <div class="company-details">
+                            <img class="logo" src="./images/ntwrk-anth-logo.png" alt="company-logo">
+                            <span class="company-name"><a class="company-url" href="https://en.networkanthropia.org/" target="_blank">Network Anthropia</a></span>
+                        </div>
+                        <div class="job-title">
+                            <span><img class="small-role-icon" src="./images/coordinator.png" alt="coordinator"></span>
+                            <span>Συντονιστής</span>
+                            <span><img class="small-loc-icon" src="./images/location.png" alt="job-location"></span>
+                            <span>Λαύριο, 19500, Ελλάδα</span>
+                        </div>
+                        <div class="period">
+                            <p>Δεκ 2022 - Παρόν</p>
+                        </div>
+                        <div class="responsibilities">
+                            <ul>
+                                <li>Οργάνωση και παροχή υποστήριξης για μετακίνηση, μετεγκατάσταση, στέγαση, νομικές συμβουλές, ιατρική περίθαλψη και εγγραφή σε σχολεία για τους ωφελούμενους.</li>
+                                <li>Συντονισμός συλλογής και διανομής δωρεών σε συνεργαζόμενους οργανισμούς και άτομα που έχουν ανάγκη.</li>
+                                <li>Διαχείρηση εσωτερικών λειτουργιών, συμπεριλαμβανομένης της τήρησης οικονομικών αρχείων, του προγραμματισμού δραστηριοτήτων και μαθημάτων, καθώς και της διατήρησης ενός οργανωμένου περιβάλλοντος στο κέντρο επιχειρήσεων.</li>
+                                <li>Υποστήριξη των μελών της ομάδας για την ομαλή λειτουργία του κέντρου επιχειρήσεων και των δραστηριοτήτων.</li>
+                            </ul>
+                        </div>
+                        <div class="small-description">
+                            <p>
+                                Υπεύθυνος για ένα ευρύ φάσμα εργασιών, από καθημερινές διεκπεραιώσεις έως σύνθετο συντονισμό με δημόσιους φορείς και νομικά πρόσωπα, διασφαλίζοντας ότι όλες οι διαδικασίες εκτελέστηκαν αποτελεσματικά.
+                            </p>
+                        </div>    
+                    </div>
+
+                    <div class="work-xp-body-per-company lang-el">
+                        <div class="company-details">
+                            <img class="logo" src="./images/dgs-logo-2.jpg" alt="company-logo">
+                            <span class="company-name"><a class="company-url" href="https://dgs.gr/" target="_blank">DGS Security</a></span>
+                        </div>
+                        <div class="job-title">
+                            <span><img class="small-role-icon" src="./images/office-worker.png" alt=""></span>
+                            <span>Υπάλληλος Γραφείου</span>
+                            <span><img class="small-loc-icon" src="./images/location.png" alt="job-location"></span>
+                            <span>Σαρωνίδα, 19013, Ελλάδα</span>
+                        </div>
+                        <div class="period">
+                            <p>Δεκ 2022 - Μαρ 2023</p>
+                        </div>
+                        <div class="responsibilities">
+                            <ul>
+                                <li>Ψηφιοποίηση αρχείων πελατών με σάρωση και καταχώρηση χειρόγραφων δεδομένων στα συστήματα της εταιρείας, βελτιώνοντας την προσβασιμότητα και τη διαχείριση των δεδομένων του πελατολογίου.</li>
+                                <li>Δημιουργία εγχειριδίων χρήσης για τους χειριστές του ΚΛΣ (Κέντρο Λήψης Σημάτων Συναγερμού), ενισχύοντας την επιχειρησιακή αποδοτικότητα και την εμπειρία χρήστη των εργαζομένων.</li>
+                            </ul>
+                        </div>
+                        <div class="small-description">
+                            <p>
+                                Ηγήθηκα της μετάβασης από χειρόγραφα αρχεία πελατών (από τη δεκαετία του 1980) σε ψηφιακή βάση δεδομένων, διευκολύνοντας την αναζήτηση, προσπέλαση και αποθήκευση πληροφοριών.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="work-xp-body-per-company lang-el">
+                        <div class="company-details">
+                            <img class="logo" src="./images/cosmomarket-logo.png" alt="company-logo">
+                            <span class="company-name"><a class="company-url" href="https://cosmomarket.gr/" target="_blank">cosmomarket.gr</a></span>
+                        </div>
+                        <div class="job-title">
+                            <span><img class="small-role-icon" src="./images/customer-care.png" alt="customer-care"></span>
+                            <span>Εξυπηρέτηση Πελατών</span>
+                            <span><img class="small-loc-icon" src="./images/location.png" alt="job-location"></span>
+                            <span>Μαρκόπουλο, 19003, Ελλάδα</span>
+                        </div>
+                        <div class="period">
+                            <p>Ιαν 2022 - Απρ 2022</p>
+                        </div>
+                        <div class="responsibilities">
+                            <ul>
+                                <li>Διαχείριση παραγγελιών και ερωτήσεων μέσω τηλεφώνου, email και chat, επίλυση προβλημάτων πελατών και παροχή πληροφοριών σχετικά με τα προϊόντα.</li>
+                                <li>Διαχείριση αιτημάτων επιστροφής προϊόντων (DOA, ελαττωματικά είδη), συντονισμός με προμηθευτές και σημεία εξυπηρέτησης καθώς και διατήρηση λεπτομερών αρχείων παρακολούθησης.</li>
+                                <li>Δημιουργία και διαχείριση ψηφιακών αρχείων παρακολούθησης και αποστολής, βελτιώνοντας την αποδοτικότητα και τη διαφάνεια της διαδικασίας επιστροφής και επισκευής ή αντικατάστασης.</li>
+                                <li>Υποστήριξη πελατών στο κατάστημα, παράδοση παραγγελιών και βοήθεια στην εύρεση κατάλληλων προϊόντων για τις ανάγκες του πελάτη.</li>
+                                <li>Υποστήριξη λειτουργιών αποθήκης.</li>
+                            </ul>
+                        </div>
+                        <div class="small-description">
+                            <p>
+                                Εισαγωγή ψηφιακών αρχείων παρακολούθησης με χρήση Google Sheets, αντικαθιστώντας τα χειρόγραφα αρχεία και τα δελτία αποστολής για καλύτερη διαχείριση περιπτώσεων και αποτελεσματικότερη επικοινωνία με τους πελάτες.
+                            </p>
+                        </div>
+
+                        <div class="job-title">
+                            <span><img class="small-role-icon" src="./images/worker.png" alt="warehouse-worker"></span>
+                            <span>Υπάλληλος Αποθήκης</span>
+                            <span><img class="small-loc-icon" src="./images/location.png" alt="job-location"></span>
+                            <span>Μαρκόπουλο, 19003, Ελλάδα</span>
+                        </div>
+                        <div class="period">
+                            <p>Σεπ 2021 - Δεκ 2021</p>
+                        </div>
+                        <div class="responsibilities">
+                            <ul>
+                                <li>Παραλαβή και έλεγχος προϊόντων από τους προμηθευτές του καταστήματος, έλεγχος ορθότητας παραλαβής.</li>
+                                <li>Ταξινόμηση προϊόντων κατά παραγγελία και προμηθευτή, οργάνωση αποθεμάτων αποθήκης.</li>
+                                <li>Συγκέντρωση προϊόντων και συσκευασία παραγγελιών προς αποστολή ή παραλαβή από πελάτες.</li>
+                                <li>Προετοιμασία αποστολών σύμφωνα με τη μέθοδο παράδοσης.</li>
+                            </ul>
+                        </div>
+                        <div class="small-description">
+                            <p>
+                                Παρείχα συμβουλές για τη βελτίωση του συστήματος διαχείρισης παραγγελιών και προϊόντων, με στόχο τη βελτίωση της εμπειρίας χρήστη των συναδέλφων.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="work-xp-body-per-company lang-el">
+                        <div class="company-details">
+                            <img class="logo" src="./images/cmt-logo.jpg" alt="company-logo">
+                            <span class="company-name"><a class="company-url" href="https://cliomusetours.com/" target="_blank">cliomusetours.com</a></span>
+                        </div>
+
+                        <div class="job-title">
+                            <span><img class="small-role-icon" src="./images/resource.png" alt="operations-department"></span>
+                            <span>Υπεύθυνος Τμήματος Operations</span>
+                            <span><img class="small-loc-icon" src="./images/location.png" alt="job-location"></span>
+                            <span>Αθήνα, 10561, Ελλάδα & Εξ αποστάσεως</span>
+                        </div>
+                        <div class="period">
+                            <p>Απρ 2020 - Οκτ 2020</p>
+                        </div>
+                        <div class="responsibilities">
+                            <ul>
+                                <li>Αναδιοργάνωση του τμήματος Operations, βελτιστοποιώντας διαδικασίες και ενημέρωση εγχειριδίων χρήσης (documentation) για μεγαλύτερη διαφάνεια και αποτελεσματικότητα.</li>
+                                <li>Διαχείρηση προσλήψεων, πρακτικών ασκήσεων και αρχείων προσωπικού, παρέχοντας υποστήριξη στους συναδέλφους σε θέματα που αφορούσαν την εργασία τους.</li>
+                                <li>Επίβλεψη οικονομικών διαδικασιών, συμπεριλαμβανομένων τιμολογίων, μισθοδοσίας και λεπτομερούς παρακολούθησης εσόδων - εξόδων.</li>
+                                <li>Οργάνωση και διαχείριση του ψηφιακού αρχείου για συμβάσεις και τιμολόγια.</li>
+                            </ul>
+                        </div>
+                        <div class="small-description">
+                            <p>
+                                Οδήγησα με επιτυχία το Τμήμα Operations κατά τη διάρκεια συρρίκνωσης της εταιρείας, αποκτώντας γρήγορα νέες δεξιότητες και γνώσεις για τη διασφάλιση της συνέχειας των επιχειρηματικών εργασιών της εταιρείας.
+                            </p>
+                        </div>
+
+                        <div class="job-title">
+                            <span><img class="small-role-icon" src="./images/product-manager.png" alt="product-manager"></span>
+                            <span>Διαχειριστής Προϊόντων</span>
+                            <span><img class="small-loc-icon" src="./images/location.png" alt="job-location"></span>
+                            <span>Αθήνα, 10561, Ελλάδα & Εξ αποστάσεως</span>
+                        </div>
+                        <div class="period">
+                            <p>Μαρ 2020 - Οκτ 2020</p>
+                        </div>
+                        <div class="responsibilities">
+                            <ul>
+                                <li>Συντονισμός διατμηματικών ομάδων για τη δημιουργία και βελτιστοποίηση καταχωρίσεων προϊόντων (product listings)σε πολλαπλά κανάλια πώλησης και ιστότοπους συνεργατών.</li>
+                                <li>Συγκέντρωση και οργάνωση υλικού προϊόντων (κείμενα, εικόνες, ήχος, γεωγραφικά δεδομένα) για καταχώριση στα listings.</li>
+                                <li>Ανάπτυξη συστημάτων παρακολούθησης για τη βελτίωση της επικοινωνίας και της ροής εργασίας μεταξύ των τμημάτων.</li>
+                            </ul>
+                        </div>
+                        <div class="small-description">
+                            <p>
+                                Βελτίωση διαδικασιών ανάπτυξης προϊόντων μέσω της εισαγωγής δομημένης ανάθεσης καθηκόντων και παρακολούθησης προόδου, μειώνοντας την κακή επικοινωνία και τις καθυστερήσεις.
+                            </p>
+                        </div>
+
+                        <div class="job-title">
+                            <span><img class="small-role-icon" src="./images/hierarchy-structure.png" alt="department-head"></span>
+                            <span>Υπεύθυνος Τμήματος Εξυπηρέτησης Πελατών</span>
+                            <span><img class="small-loc-icon" src="./images/location.png" alt="job-location"></span>
+                            <span>Αθήνα, 10561, Ελλάδα & Εξ αποστάσεως</span>
+                        </div>
+                        <div class="period">
+                            <p>Ιουν 2019 - Οκτ 2020</p>
+                        </div>
+                        <div class="responsibilities">
+                            <ul>
+                                <li>Ίδρυση και προτυποποίηση διαδικασιών του τμήματος, εγχειριδίων χρήστη και συχνών ερωτήσεων πελατών.</li>
+                                <li>Καθορισμός φιλοσοφίας τμήματος και εκπαίδευση των εκπροσώπων για την παροχή βέλτιστης εμπειρίας πελατών.</li>
+                                <li>Διαχείριση προγράμματος, αξιολογήσεων εκπροσώπων και μηνιαίες παρουσιάσεις απόδοσης, διασφαλίζοντας την ισορροπία επαγγελματικής και προσωπικής ζωής των μελών της ομάδας.</li>
+                                <li>Δημιουργία περιγραφών θέσεων εργασίας, αξιολόγηση βιογραφικών και υποψηφίων, πραγματοποίηση συνεντεύξεων, εκπαίδευση νέων εργαζομένων στο τμήμα.</li>
+                            </ul>
+                        </div>
+                        <div class="small-description">
+                            <p>
+                                Κτίσιμο του Τμήματος Εξυπηρέτησης Πελατών από την αρχή, εφαρμόζοντας διαδικασίες και πρότυπα για την υποστήριξη της ανάπτυξης της εταιρείας και της ικανοποίησης των πελατών της.
+                            </p>
+                        </div>
+
+                        <div class="job-title">
+                            <span><img class="small-role-icon" src="./images/customer-care.png" alt="customer-care-agent"></span>
+                            <span>Εκπρόσωπος Εξυπηρέτησης Πελατών</span>
+                            <span><img class="small-loc-icon" src="./images/location.png" alt="job-location"></span>
+                            <span>Λαύριο, 19500, Ελλάδα (Εξ αποστάσεως)</span>
+                        </div>
+                        <div class="period">
+                            <p>Οκτ 2018 - Ιουν 2019</p>
+                        </div>
+                        <div class="responsibilities">
+                            <ul>
+                                <li>Επεξεργασία κρατήσεων από πολλαπλά marketplaces, χειροκίνητη καταχώριση πληροφοριών και διαχείριση αγορών εισιτηρίων.</li>
+                                <li>Παροχή υποστήριξης πελατών μέσω τηλεφώνου, email και chat, βοήθεια σε ερωτήσεις σχετικά με τις εφαρμογές και τα προϊόντα της εταιρείας.</li>
+                                <li>Αναφορά τεχνικών ζητημάτων και σφαλμάτων στην ομάδα προγραμματιστών.</li>
+                            </ul>
+                        </div>
+                        <div class="small-description">
+                            <p>
+                                Βελτίωση της επικοινωνίας με τους πελάτες μέσω της αναθεώρησης των προτύπων email και συμβολή με ιδέες για τη βελτίωση τόσο της εμπειρίας των πελατών όσο και των εκπροσώπων.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="work-xp-body-per-company lang-el">
+                        <div class="company-details">
+                            <img class="logo" src="./images/cosmote-logo.png" alt="company-logo">
+                            <span class="company-name"><a class="company-url" href="https://www.cosmote.gr/hub/" target="_blank">Cosmote</a></span>
+                        </div>
+                        <div class="job-title">
+                            <span><img class="small-role-icon" src="./images/customer-care.png" alt="customer-care-agent"></span>
+                            <span>Τεχνική Υποστήριξη 1ου Επιπέδου (xDSL, Τηλεφωνία, VoIP)</span>
+                            <span><img class="small-loc-icon" src="./images/location.png" alt="job-location"></span>
+                            <span>Αθήνα, 10434, Ελλάδα</span>
+                        </div>
+                        <div class="period">
+                            <p>Νοέ 2014 - Αυγ 2016 & Ιούλ 2017 - Σεπ 2017</p>
+                        </div>
+                        <div class="responsibilities">
+                            <ul>
+                                <li>Παροχή τεχνικής υποστήριξης σε οικιακούς και μικρούς επιχειρηματικούς πελάτες για υπηρεσίες xDSL, τηλεφωνίας και VoIP.</li>
+                                <li>Διάγνωση και επίλυση προβλημάτων συνδεσιμότητας και υπηρεσιών, κλιμάκωση σύνθετων περιπτώσεων σε υψηλότερα επίπεδα υποστήριξης.</li>
+                                <li>Βοήθεια σε συναδέλφους κατά τη διάρκεια των βαρδιών, συμβάλλοντας στη διάδοση γνώσεων και στην επίλυση προβλημάτων.</li>
+                            </ul>
+                        </div>
+                        <div class="small-description">
+                            <p>
+                                Παροχή άμεσης και αποτελεσματικής τεχνικής βοήθειας, διασφαλίζοντας υψηλή ικανοποίηση πελατών και ομαλή κλιμάκωση των ανεπίλυτων ζητημάτων.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="work-xp-body-per-company">
+                        <div class="company-details">
+                            <img class="logo" src="" alt="company-logo">
+                            <span class="company-name">Company Name</span>
+                        </div>
+                        <div class="job-title">
+                            <span><img class="small-role-icon" src="" alt=""></span>
+                            <span>Job Title</span>
+                            <span><img class="small-loc-icon" src="" alt="job-location"></span>
+                            <span>Location</span>
+                        </div>
+                        <div class="period">
+                            <p>start - end</p>
+                        </div>
+                        <div class="responsibilities">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="small-description">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum voluptas veniam cumque illo voluptatem accusantium accusamus optio minus, eaque ad, dolorem iusto. Distinctio possimus ad cumque dignissimos delectus? Ipsum, sint!</p>
+                        </div>
+                    </div> -->
+                    
+                </div>
+            </div>
+            <div class="skills-etc-container lang-el">
+                <div class="content-container lang-el">
+                    <div class="skills lang-el">
+                        <div class="gen-skill-header lang-el">
+                            <img class="skill-icon lang-el" src="./images/skill.png" alt="technical-skills">
+                            <span class="gen-skill-text lang-el">Τεχνικές Δεξιότητες</span>
+                        </div>
+                        <div class="skills-list lang-el">
+                            <ul class="gen-list-item lang-el">
+                                <li>Google Sheets & Διαχείρηση Δεδομένων</li>
+                                <li>Δημιουργία εγχειριδίων</li>
+                                <li>Εκπαίδευση</li>
+                                <li>Εξαιρετική Εξυπηρέτηση Πελατών</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="languages lang-el">
+                        <div class="gen-skill-header lang-el">
+                            <img class="skill-icon lang-el" src="./images/language.png" alt="languages">
+                            <span class="gen-skill-text lang-el">Γλώσσες</span>
+                        </div>
+                        <div class="languages-list lang-el">
+                            <ul class="gen-list-item lang-el">
+                                <li>Ελληνικά (Μητρική)</li>
+                                <li>Αγγλικά (Άριστη Επαγγελματική Επάρκεια)</li>
+                                <li>Γερμανικά (Βασικό Επίπεδο)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="soft-skills lang-el">
+                        <div class="gen-skill-header lang-el">
+                            <img class="skill-icon lang-el" src="./images/creative-thinking.png" alt="soft-skills">
+                            <span class="gen-skill-text lang-el">Προσωπικές Δεξιότητες</span>
+                        </div>
+                        <div class="soft-skills-list lang-el">
+                            <ul class="gen-list-item lang-el">
+                                <li>Προσαρμοστικότητα</li>
+                                <li>Προσοχή στη Λεπτομέρεια</li>
+                                <li>Ειλικρίνεια & Ακεραιότητα</li>
+                                <li>Δημιουργικότητα</li>
+                                <li>Κριτική Σκέψη</li>
+                                <li>Ενσυναίσθηση</li>
+                                <li>Ηγεσία</li>
+                                <li>Οργάνωση</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="interests lang-el">
+                        <div class="gen-skill-header lang-el">
+                            <img class="skill-icon lang-el" src="./images/hobbies.png" alt="interests">
+                            <span class="gen-skill-text lang-el">Ενδιαφέροντα</span>
+                        </div>
+                        <div class="interests-list lang-el">
+                            <ul class="gen-list-item lang-el">
+                                <li>Σύνθεση & Παραγωγή Μουσικής</li>
+                                <li>Επεξεργασία Ήχου</li>
+                                <li>Φωτογραφία</li>
+                                <li>Internet of Things (IoT)</li>
+                                <li>Car Detailing</li>
+                                <li>Gaming</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="education lang-el">
+                        <div class="gen-skill-header lang-el">
+                            <img class="skill-icon lang-el" src="./images/education.png" alt="education">
+                            <span class="gen-skill-text lang-el">Μόρφωση</span>
+                        </div>
+                        <div class="education-list lang-el">
+                            <ul class="gen-list-item lang-el">
+                                <li>Τμήμα Μουσικής Τεχνολογίας και Ακουστικής, ΤΕΙ Κρήτης - Χωρίς πτυχίο.</li>
+                                <li>Απολυτήριο Λυκείου, Ενιαίο Λύκειο Λαυρίου, Ελλάδα</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="footer">
+            <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/location" title="location icons">Location icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Smashicons - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/skill" title="skill icons">Skill icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/language" title="language icons">Language icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/idea" title="idea icons">Idea icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/hobbies" title="hobbies icons">Hobbies icons created by Vectors Tank - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by amonrat rungreangfangsai - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/bag" title="bag icons">Bag icons created by Dimitry Miroliubov - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/worker" title="worker icons">Worker icons created by ultimatearm - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/contact" title="contact icons">Contact icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/worker" title="worker icons">Worker icons created by Culmbio - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/worker" title="worker icons">Worker icons created by Nikita Golubev - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/supervisor" title="supervisor icons">Supervisor icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/owner" title="owner icons">Owner icons created by juicy_fish - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/resource" title="resource icons">Resource icons created by noomtah - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/greece" title="greece icons">Greece icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/uk-flag" title="uk flag icons">Uk flag icons created by Freepik - Flaticon</a>
         </div>
         -->
     </div>
     
+    <script>
+    // Εναλλαγή γλώσσας
+    document.getElementById('flag-gr').onclick = function() {
+        document.querySelector('.container.lang-en').style.display = 'none';
+        document.querySelector('.container.lang-el').style.display = 'block';
+    };
+    document.getElementById('flag-en').onclick = function() {
+        document.querySelector('.container.lang-en').style.display = 'block';
+        document.querySelector('.container.lang-el').style.display = 'none';
+    };
+    </script>
 </body>
 </html>
