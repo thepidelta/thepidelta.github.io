@@ -379,9 +379,11 @@
     }
     .work-xp-header,
     .work-xp-header-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         width: 100%;
         flex-direction: column;
-        align-items: flex-start;
         margin: 0;
     }
     .job-title {
@@ -416,4 +418,19 @@
         width: 100%;
         margin: 0;
     }
+    .profile-pic-container,
+    .prof-pic {
+        display: none !important;
+    }
+}
+
+/* ADDITIONAL STYLES FOR WORK EXPERIENCE SECTION */
+.work-xp-body-per-company {
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+}
+
+.work-xp-body-per-company:last-child {
+    border-bottom: none;
 }
